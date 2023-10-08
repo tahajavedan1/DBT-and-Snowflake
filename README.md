@@ -2,7 +2,7 @@
 Project Description:
 
 ## Models:
-Create Models which are SQL logics, essentially sets of SQL queries and transformations that you create using the dbt run command.
+Created Models which are SQL logics, essentially sets of SQL queries and transformations that you create using the dbt run command.
 
 ## Materializations:
 There are four main types of materializations:
@@ -14,6 +14,7 @@ Incremental:
 Incremental materializations update your data in a way that only the new or changed data is processed, saving time and resources. It's like updating a document with only the latest changes.
 Ephemeral:
 Ephemeral materializations are temporary and used for interim steps in data processing. They're like quick notes you jot down temporarily.
+
 
 ## Seeds:
 Seeds are like the starting point for your data journey. They often contain static data, such as information from a CSV file. Seeds are your project's foundation, providing initial data to build upon.
