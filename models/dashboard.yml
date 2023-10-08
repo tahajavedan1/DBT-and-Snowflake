@@ -1,0 +1,13 @@
+version: 2
+exposures:
+  - name: Executive Dashboard
+    type: dashboard
+    maturity: low
+    url: https://28bbca8a.us1a.app.preset.io/superset/dashboard/p/MbdnD7LP8yJ/
+    description: Executive Dashboard about Airbnb listings and hosts
+    depends_on:
+      - ref('dim_listings_w_hosts')
+      - ref('FULL_MOON_REVIEWS')
+    owner:
+      name: Taha
+      email: tahajavedan@hotmail.com
