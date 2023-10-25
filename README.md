@@ -19,7 +19,7 @@ Ephemeral materializations are temporary and used for interim steps in data proc
 ## Seeds:
 Seeds are like the starting point for your data journey. They often contain static data, such as information from a CSV file. Seeds are your project's foundation, providing initial data to build upon.
 
-##Sources:
+## Sources:
 Sources are where you obtain your data. They can be databases, files, or other data repositories. Think of them as the places you go to collect the raw materials for your project.
 
 ## Snapshots for SCD Type 2:
